@@ -1,0 +1,29 @@
+body {
+	/*font-family: "Microsoft YaHei";*/
+	font-family: "Hiragino Sans GB",Helvetica,sans-serif;
+	background: #ebebeb;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+input {
+	outline: none;
+}
+
+/*ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}*/
+
+.mui-content
+{
+	background: #ebebeb;
+}

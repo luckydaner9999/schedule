@@ -1,0 +1,80 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.js",
+			"css/mui.min.css",
+			"js/common.js",
+			"js/jquery-1.10.2.min.js",
+			"js/mui.min.js",
+			"css/common.css",
+			"css/sub-list.css",
+			"fonts/mui.ttf",
+			"js/mui.enterfocus.js",
+			"js/date.js",
+			"css/index.css",
+			"images/point.png",
+			"images/spoint.png",
+			"images/pointWhite.png",
+			"images/back.png",
+			"images/schedule.png",
+			"images/message.png",
+			"css/swiper.min.css",
+			"js/swiper.min.js",
+			"images/pullleftBack.png",
+			"images/pullRightBack.png",
+			"js/calendar.js",
+			"js/moment.min.js",
+			"css/fullcalendar.min.css",
+			"js/fullcalendar.min.js",
+			"css/main.css",
+			"js/datepicker_lang_zh_CN.js",
+			"js/xgcalendar_lang_zh_CN.js",
+			"js/jquery.datepicker.js",
+			"js/xgcalendar.js",
+			"css/calendar.css",
+			"js/jquery.min.js",
+			"js/jquery-1.8.3.min.js",
+			"css/dailog.css",
+			"js/calCommon.js",
+			"js/jquery.alert.js",
+			"js/blackbird.js",
+			"css/blackbird.css",
+			"css/dp.css",
+			"js/jquery.ifrmdailog.js",
+			"css/alert.css",
+			"index.html",
+			"schedule-add.html",
+			"js/schedule-main.js",
+			"css/schedule-main.css"
+		],
+		"refer": [
+			"schedule-add.html",
+			"schedule-edit.html"
+		]
+	},
+	"schedule-add.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/schedule-add.css",
+			"fonts/mui.ttf",
+			"js/common.js",
+			"js/jquery-1.8.3.min.js",
+			"css/common.css",
+			"js/mui.picker.min.js",
+			"css/mui.dtpicker.css",
+			"css/app.css",
+			"css/mui.picker.min.css",
+			"js/schedule-add.js"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"schedule-edit.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}

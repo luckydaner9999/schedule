@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<!--<link rel="stylesheet" type="text/css" href="css/app.css" />-->
+		<link rel="stylesheet" type="text/css" href="css/mui.picker.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/schedule-add.css" />
+
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="display: block;">
+			<a class="mui-icon mui-icon-closeempty mui-pull-left"></a>
+			<h1 class="mui-title"></h1>
+			<a class="mui-icon mui-icon-checkmarkempty mui-pull-right" id="submitBtn"></a>
+			<a class="mui-icon mui-icon-trash mui-pull-right deleteEvent"></a>
+		</header>
+		<div class="mui-content">
+			<div class="mui-input-group">
+				<input type="text" name="" id="eventInput" value="" placeholder="例如：明天上午九点开会" />
+				<a class="mui-icon mui-icon-close-filled" id="clearInput"></a>
+			</div>
+			<div class="choseTimePart">
+				<div class="clickDate">08月08日 周二</div>
+				<div class="eventPart"></div>
+				<div class="mui-row">
+					<div class="mui-col-xs-6"></div>
+					<div class="mui-col-xs-6"></div>
+				</div>
+				<div class="mui-row">
+					<div class="mui-col-xs-4 startTime"><span>10:00</span></div>
+					<div class="mui-col-xs-4 middleTime"><span>10:30</span></div>
+					<div class="mui-col-xs-4 endTime"><span>11:00</span></div>
+				</div>
+			</div>
+			<div id="template">
+				<div class="pickerBottom mui-row">
+					<div class="mui-col-xs-6 active startTime"><span>开始时间</span></div>
+					<div class="mui-col-xs-6 endTime"><span>结束时间</span></div>
+				</div>
+			</div>
+
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" src="js/mui.picker.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/schedule-add.js">
+		</script>
+	</body>
+
+</html>

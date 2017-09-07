@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/sub-list.css" />
+		<!--App自定义的css-->
+		<!--<link rel="stylesheet" type="text/css" href="../css/app.css" />-->
+	</head>
+
+	<body>
+
+		<style>
+			.mui-control-content {
+				background-color: white;
+				min-height: 765px;
+			}
+			
+			.mui-control-content .mui-loading {
+				margin-top: 50px;
+			}
+		</style>
+	
+		<div class="mui-content">
+			<div id="slider">
+
+				<div class="">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="mui-table-view">
+									<li class="project-item mui-table-view-cell">
+										<div class="mui-slider-right mui-disabled">
+											<a class="mui-btn mui-btn-yellow mui-icon mui-icon-phone btn-call" href="javascript:void(0)"></a>
+										</div>
+										<div class="mui-row mui-slider-handle">
+											<div class="mui-col-xs-4 photo-block">
+												<img class="coverPic" src="../../img/project/noPhoto.png">
+												<div class="sale-info">
+													优惠信息水电费水电费问违法未违反
+												</div>
+											</div>
+											<div class="mui-col-xs-8 info-part">
+												<p class="title"><span class="name">恒大华府</span><span class="status">在售</span></p>
+												<p class="key">
+													<span class="value area-value">黄浦</span>&nbsp;&nbsp;<span class=" house-type-value"></span>&nbsp;&nbsp;<span class=" house-area-value"></span>
+												</p>
+												<p class="key"><span class="open-date">2017/2/2 开盘</span>&nbsp;&nbsp;<span class="sale-condition"></span></p>
+												<p class="tag"><span class=" green visit-value">带看 0</span><span class="green record-value">报备 0</span> <span class=" green view-value">浏览 0</span></p>
+												<div class="remind-call"><span class="mui-icon mui-icon-back"></span>右划联系对接人</div>
+											</div>
+											<div class="price-part">
+												<p class="totalPrice"></p>
+												<p class="price"></p>
+											</div>
+										</div>
+									</li>
+								
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+				/*	var html2 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第二个选项卡子项-1</li><li class="mui-table-view-cell">第二个选项卡子项-2</li><li class="mui-table-view-cell">第二个选项卡子项-3</li><li class="mui-table-view-cell">第二个选项卡子项-4</li><li class="mui-table-view-cell">第二个选项卡子项-5</li></ul>';
+					var html3 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第三个选项卡子项-1</li><li class="mui-table-view-cell">第三个选项卡子项-2</li><li class="mui-table-view-cell">第三个选项卡子项-3</li><li class="mui-table-view-cell">第三个选项卡子项-4</li><li class="mui-table-view-cell">第三个选项卡子项-5</li></ul>';
+					var item2 = document.getElementById('item2mobile');
+					var item3 = document.getElementById('item3mobile');
+					document.getElementById('slider').addEventListener('slide', function(e) {
+						if(e.detail.slideNumber === 1) {
+							if(item2.querySelector('.mui-loading')) {
+								setTimeout(function() {
+									item2.querySelector('.mui-scroll').innerHTML = html2;
+								}, 500);
+							}
+						} else if(e.detail.slideNumber === 2) {
+							if(item3.querySelector('.mui-loading')) {
+								setTimeout(function() {
+									item3.querySelector('.mui-scroll').innerHTML = html3;
+								}, 500);
+							}
+						}
+					});*/
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if(this.checked) {
+						sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+		</script>
+
+	</body>
+
+</html>

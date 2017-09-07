@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的日程表 </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link href="css/dailog.css" rel="stylesheet" type="text/css" />
+		<link href="css/calendar.css" rel="stylesheet" type="text/css" />
+		<link href="css/dp.css" rel="stylesheet" type="text/css" />
+		<link href="css/alert.css" rel="stylesheet" type="text/css" />
+		<link href="css/blackbird.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/schedule-main.css">
+		<style type="text/css">
+			.mui-card .mui-control-content {
+				padding: 10px;
+			}
+			
+			.mui-control-content {
+				height: 25rem;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<!--<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>-->
+			<h1 class="mui-title">
+				<span class="currentDay"></span>
+				<span class="backBtn" id="backBtn">
+					<img src="images/pullleftBack.png" alt="" />
+				</span>
+			</h1>
+
+		</header>
+		<!--我的日程 start-->
+		<div class="mui-content">
+			<!--日期 start-->
+			<div class="schedule">
+				<div class="swiper-container swiper-container1">
+					<div class="swiper-wrapper">
+
+					</div>
+				</div>
+
+			</div>
+			<!--日期 end-->
+
+			<!--下面时间轴滑动以及日程提醒和编辑-->
+
+			<div class="swiper-container swiper-container2">
+				<div class="swiper-wrapper">
+					<div class="mui-control-content swiper-slide mui-active">
+						<div class="mui-scroll-wrapper scroll">
+							<div class="mui-scroll">
+								<div>
+									<div style="padding:1px;">
+										<div class="gridcontainer">
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		<div id="template">
+			<div class="swiper-slide">
+				<table class="dayshow dates mui-row">
+
+					<tr class="week">
+						<td class="padleft">
+							<a>日</a>
+						</td>
+						<td>
+							<a>一</a>
+						</td>
+						<td>
+							<a>二</a>
+						</td>
+						<td>
+							<a>三</a>
+						</td>
+						<td>
+							<a>四</a>
+						</td>
+						<td>
+							<a>五</a>
+						</td>
+						<td class="padright">
+							<a>六</a>
+						</td>
+					</tr>
+					<tr class="monitor">
+						<td class="padleft">
+							<a data-weeks="0"><span></span></a>
+						</td>
+						<td class="">
+							<a data-weeks="1"><span></span></a>
+						</td>
+						<td>
+							<a data-weeks="2"><span></span></a>
+						</td>
+						<td>
+							<a data-weeks="3"><span></span></a>
+						</td>
+						<td class="">
+							<a data-weeks="4"><span></span></a>
+						</td>
+						<td>
+							<a data-weeks="5"><span></span></a>
+						</td>
+						<td class="padright">
+							<a data-weeks="6"><span></span></a </td>
+					</tr>
+				</table>
+
+			</div>
+
+			<div class="remarks">
+				<div class="times">16:30-17:00</div>
+				<div class="goingDo">开会</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/mui.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/calCommon.js" type="text/javascript"></script>
+		<script src="js/blackbird.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/datepicker_lang_zh_CN.js"></script>
+		<script type="text/javascript" src="js/jquery.datepicker.js"></script>
+		<script src="js/jquery.alert.js" type="text/javascript"></script>
+		<script src="js/jquery.ifrmdailog.js" defer="defer" type="text/javascript"></script>
+		<script type="text/javascript" src="js/xgcalendar_lang_zh_CN.js"></script>
+		<script src="js/xgcalendar.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script src="js/date.js"></script>
+		<script type="text/javascript" src="js/schedule-main.js"></script>
+	</body>
+
+</html>
