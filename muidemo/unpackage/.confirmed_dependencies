@@ -1,0 +1,111 @@
+{
+	"views/index.html": {
+		"resources": [
+			"img/index/p9_06.png",
+			"img/index/p5_05.png",
+			"img/index/collect.png",
+			"img/index/p8_03.png",
+			"img/index/p4.png",
+			"img/index/p3.png",
+			"img/index/p5_12.png",
+			"js/common/common.js",
+			"img/index/grayfo.png",
+			"js/mui.min.js",
+			"img/index/qi.png",
+			"img/index/focus.png",
+			"css/index/index.css",
+			"img/index/p5_03.png",
+			"img/index/icons_07.png",
+			"img/index/p9_03.png",
+			"img/index/p9_08.png",
+			"fonts/mui.ttf",
+			"img/index/bg.png",
+			"img/index/p5_10.png",
+			"img/index/icons_05.png",
+			"img/index/back.png",
+			"css/mui.min.css",
+			"img/index/p1.png",
+			"img/index/p8_07.png",
+			"img/index/p2.png",
+			"css/common.css"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"img/index-default.png",
+			"img/index.png",
+			"img/onRoadActive.png",
+			"fonts/mui.ttf",
+			"img/ziyouxing.png",
+			"img/onRoad.png",
+			"img/mine.png",
+			"views/index.html",
+			"img/ziyouxingActive.png",
+			"js/common/common.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/mineActive.png",
+			"css/common.css"
+		],
+		"refer": [
+			"views/index.html",
+			"views/mine/mine-main.html",
+			"views/onRoad/onRoad-main.html",
+			"views/Independent travel/independent-travel-main.html",
+			"views/IndependentTravel/independent-travel-main.html"
+		]
+	},
+	"views/mine/mine-main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"views/Independent travel/independent-travel-main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"img/independent/down.png",
+			"js/common/common.js"
+		]
+	},
+	"views/onRoad/onRoad-main.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"views/IndependentTravel/independent-travel-main.html": {
+		"resources": [
+			"img/independent/down.png",
+			"js/common/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"views/IndependentTravel/independent-travel-sub.html",
+			"css/common.css"
+		],
+		"refer": [
+			"views/IndependentTravel/independent-travel-sub.html"
+		]
+	},
+	"views/IndependentTravel/independent-travel-sub.html": {
+		"resources": [
+			"js/common/common.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/common.css",
+			"css/independentTravel/independent-travel-sub.css",
+			"img/independent/free1.png",
+			"img/independent/hongkong.png",
+			"img/independent/dali.png",
+			"img/independent/xizang.png",
+			"img/independent/zhangjiajie.png",
+			"img/index/p9_03.png",
+			"img/index/grayfo.png",
+			"img/index/back.png",
+			"img/index/qi.png"
+		]
+	}
+}

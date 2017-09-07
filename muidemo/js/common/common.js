@@ -1,0 +1,1 @@
+document.documentElement.style['font-size'] = (document.documentElement.clientWidth || localStorage.deviceWidth) / 20 + 'px';

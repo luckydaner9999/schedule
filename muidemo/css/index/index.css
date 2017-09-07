@@ -1,0 +1,218 @@
+body,
+.mui-content {
+	width: 100%;
+	font-family: "arial, helvetica, sans-serif";
+	color: #333333;
+}
+
+.mui-content .banner {
+	position: relative;
+	margin-bottom: 0.8rem;
+}
+
+.mui-content .banner .search {
+	position: absolute;
+	top: 1.5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	padding: 0rem 1.5
+	rem;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 2rem;
+	box-shadow: 1px -2px 2px rgba(255, 255, 255, 0.34);
+	font-size: 1rem;
+}
+
+.mui-content .banner .search .mui-icon-search {
+	color: #fff;
+	font-weight: bold;
+}
+
+.mui-content .banner .search input {
+	width: 10.5rem;
+	background: transparent;
+	border: none;
+	color: #fff;
+	line-height: 1rem;
+	margin-bottom: 0rem;
+	height: 1.5rem;
+}
+
+.mui-content .banner img {
+	width: 100%;
+}
+
+.content .travel {
+	margin-bottom: 0.8rem;
+	background: #fff;
+}
+
+.content .travel .title {
+	line-height: 2rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #333333;
+	padding-top: 0.5rem;
+	position: relative;
+}
+
+.content .travel .title img {
+	width: 1rem;
+	margin-left: 0.5rem;
+	position: absolute;
+	top: 1rem;
+}
+
+.content .travel .title i {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.content .travel .mui-row {
+	padding: 0.5rem;
+}
+
+.content .travel .travel-item {
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	padding-bottom: 0.5rem;
+}
+
+.content .travel .travel-item img {
+	width: 100%;
+}
+
+.content .travel .travel-item .name,
+.content .travel .travel-item .description {
+	text-align: center;
+	color: #333333;
+	line-height: 1.5rem;
+}
+
+.content .travel .travel-item .name {
+	font-size: 1rem;
+}
+
+.content .travel .travel-item .description {
+	font-size: 0.7rem;
+	width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.content .travel.special {
+	position: relative;
+}
+
+.content .travel.special .name {
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	bottom: 2.5rem;
+	height: 2rem;
+	color: #fff;
+	line-height: 2rem;
+	left: 0.25rem;
+	right: 0.2rem;
+}
+
+.content .travel.onRoad {
+	position: relative;
+}
+
+.content .travel.onRoad .commont {
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	bottom: 0rem;
+	right: 0rem;
+	color: #fff;
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.content .travel.onRoad .commont .description {
+	color: #fff;
+	text-align: left;
+	font-size: 1.1rem;
+}
+
+.content .travel.onRoad .commont .time {
+	font-size: 0.7rem;
+}
+
+.content .travel.onRoad .commont .u_commont {
+	position: absolute;
+	bottom: 1rem;
+}
+
+.content .travel.onRoad .commont .u_commont .icon>div:last-child {
+	vertical-align: top;
+	margin-left: 0.5rem;
+}
+
+.content .travel.onRoad .commont .u_commont .u_name,
+.content .travel.onRoad .commont .u_commont .num {
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+
+.content .travel.onRoad .commont .u_commont .icon img {
+	width: 2.5rem;
+}
+
+.content .travel.onRoad .commont .u_commont .icon>div {
+	display: inline-block;
+}
+
+.content .travel.onRoad .commont .f-num {
+	margin-right: 0.5rem;
+}
+
+.content .travel.onRoad .commont .u_commont .icon>div .num img {
+	width: 0.8rem;
+	margin-right: 0.3rem;
+}
+
+.content .travel.recommend .travel-item {
+	position: relative;
+}
+
+.content .travel.recommend .travel-item .reason {
+	padding: 0.3rem;
+	color: #333333;
+	font-size: 0.8rem;
+}
+
+.content .travel.recommend .travel-item .other {
+	color: #999999;
+}
+.content .travel.recommend .travel-item .other .qi img{
+	width: 0.6rem;
+}
+.content .travel.recommend .travel-item .other img {
+	width: 1rem;
+	margin-left: 0.3rem;
+	vertical-align: text-bottom;
+}
+
+.content .travel.recommend .travel-item .other span {
+	margin-right: 0.3rem;
+	font-size: 0.7rem;
+}
+
+.content .travel.recommend .travel-item .other span.fo {
+	margin-left: 1rem;
+}
+
+.content .travel.recommend .travel-item .price {
+	position: absolute;
+	width: 7rem;
+	right: 0.2rem;
+	bottom: 6rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #FFFFFF;
+	line-height: 2rem;
+	font-size: 1rem;
+	text-align: center;
+}

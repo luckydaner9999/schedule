@@ -1,0 +1,88 @@
+.travel-item{
+	padding: 0.5rem;
+	position: relative;
+	padding-bottom: 0rem;
+}
+.travel-item img{
+	width: 100%;
+}
+.travel-item .description{
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top:4rem;
+	line-height: 1.3rem;
+	width: 100%;
+}
+.travel-item .description .name{
+	font-size: 1.5rem;
+}
+.travel-item .description .enName{
+	font-size: 0.7rem;
+}
+.travel-item .description .remark{
+	font-size: 0.8rem;
+}
+.first{
+	margin-bottom: 0.5rem;
+}
+.hotSale{
+	background: #fff;
+}
+.travel .title {
+	line-height: 2rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #333333;
+	padding-top: 0.5rem;
+	position: relative;
+}
+
+.travel .title img {
+	width: 1rem;
+	margin-left: 0.5rem;
+	position: absolute;
+	top: 1rem;
+}
+.travel.hotSale .travel-item {
+	position: relative;
+}
+
+.travel.hotSale .travel-item .reason {
+	padding: 0.3rem;
+	color: #333333;
+	font-size: 0.8rem;
+}
+
+.travel.hotSale .travel-item .other {
+	color: #999999;
+}
+.travel.hotSale .travel-item .other .qi img{
+	width: 0.6rem;
+}
+.travel.hotSale .travel-item .other img {
+	width: 1rem;
+	margin-left: 0.3rem;
+	vertical-align: text-bottom;
+}
+
+.travel.hotSale .travel-item .other span {
+	margin-right: 0.3rem;
+	font-size: 0.7rem;
+}
+
+.travel.hotSale .travel-item .other span.fo {
+	margin-left: 1rem;
+}
+
+.travel.hotSale .travel-item .price {
+	position: absolute;
+	width: 7rem;
+	right: 0.5rem;
+	bottom: 6rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #FFFFFF;
+	line-height: 2rem;
+	font-size: 1rem;
+	text-align: center;
+}

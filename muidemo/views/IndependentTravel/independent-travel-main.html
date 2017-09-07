@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>自由行首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../css/common.css" />
+		<style type="text/css">
+			.mui-bar-nav {
+				background: #FFFFFF;
+			}
+			
+			.mui-icon-search {
+				color: #999999;
+				font-weight: bold;
+			}
+			
+			h1 {
+				color: #333333;
+			}
+			
+			.filter {
+				position: absolute;
+				right: 0.8rem;
+				top: 0.5rem;
+				background: #59b0f5;
+				color: #fff;
+				padding: 0.2rem 0.5rem;
+				border-radius: 1.5rem;
+				font-size: 0.8rem;
+			}
+			.filter img{
+				    width: 0.8rem;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-search mui-pull-left"></a>
+			<h1 class="mui-title">自由行</h1>
+			<span class="filter">国内<span><img src="../../img/independent/down.png" alt="" /></span></span>
+		</header>
+		<div class="mui-content"></div>
+		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript" src="../../js/common/common.js">
+			
+		</script>
+		<script type="text/javascript">
+			mui.init({
+		    subpages:[{
+		      url:'independent-travel-sub.html',//子页面HTML地址，支持本地地址和网络地址
+		      id:'independent-travel-sub.html',//子页面标志
+		      styles:{
+		        top:50,//子页面顶部位置
+		        bottom:0,//子页面底部位置
+		      },
+		      extras:{}//额外扩展参数
+		    }]
+		  });
+		</script>
+	</body>
+
+</html>
